@@ -5,7 +5,6 @@ template = """
       "jre-tar-gz": "https://downloads.mesosphere.com/java/server-jre-8u162-linux-x64.tar.gz",
       "libmesos-bundle-tar-gz": "https://downloads.mesosphere.com/libmesos-bundle/libmesos-bundle-1.11.0.tar.gz",
       "bootstrap-zip": "https://downloads.mesosphere.com/dcos-commons/artifacts/%(version)s/bootstrap.zip",
-      "executor-zip": "https://downloads.mesosphere.com/dcos-commons/artifacts/%(version)s/executor.zip",
       "scheduler-zip": "https://ecosystem-repo.s3.amazonaws.com/sdk/artifacts/%(version)s/operator-scheduler.zip",
       "svc": "http://minio.marathon.l4lb.thisdcos.directory:9000/artifacts/%(template)s/svc.yml"
     }
